@@ -1,0 +1,7 @@
+    {
+        "PersonId": 1,
+        "FirstName": "Tiger",
+        "LastName": "Nixon",
+        "PhoneNumber": 1234567890,
+        "EmailId": "tiger@gmail.com"
+    }

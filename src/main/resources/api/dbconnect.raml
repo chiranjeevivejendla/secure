@@ -1,0 +1,78 @@
+#%RAML 1.0
+title: DBconnect
+
+/employees_get:
+  get:
+    queryParameters:
+      PersonID: 
+        type: integer
+        required: false
+      FirstName: 
+        type: string
+        required: false
+      LastName: 
+        type: string
+        required: false
+      PhoneNumber: 
+        type: integer
+        required: false
+      EmailId: 
+        type: string
+        required: false
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include example.json
+/employees_patch:
+  patch:
+    queryParameters:
+      PersonID: 
+        type: integer
+        required: false
+      FirstName: 
+        type: string
+        required: false
+      LastName: 
+        type: string
+        required: false
+      PhoneNumber: 
+        type: integer
+        required: false
+      EmailId: 
+        type: string
+        required: false
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include example.json
+/employees_post:
+  post:
+    queryParameters:
+      PersonID: 
+        type: integer
+        required: false
+      FirstName: 
+        type: string
+        required: false
+      LastName: 
+        type: string
+        required: false
+      PhoneNumber: 
+        type: integer
+        required: false
+      EmailId: 
+        type: string
+        required: false
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include example.json
+
+
+              
+
+      
+  
